@@ -195,7 +195,6 @@ Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) unt
 ## 👨‍💻 Tentang Pengembang
 
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/dzakwanalifi" width="100px" style="border-radius:50%">
   <h3>Dzakwan Alifi</h3>
   <p>Mahasiswa Statistika dan Sains Data, IPB University (2025)</p>
   
