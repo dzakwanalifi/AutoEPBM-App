@@ -45,7 +45,8 @@ Atau klik langsung link di bawah untuk download versi terbaru:
 
 1. Secara default, semua mata kuliah yang belum diisi akan dipilih
 2. Kamu bisa memilih matkul spesifik yang ingin diisi
-3. Klik OK untuk melanjutkan
+3. **Catatan Penting**: Jika ada mata kuliah yang tidak memiliki dosen pengajar atau tidak memerlukan penilaian, tidak perlu diisi (hapus centang pada mata kuliah tersebut)
+4. Klik OK untuk melanjutkan
 
 ### Langkah 4: Atur Nilai (Opsional)
 
@@ -70,6 +71,7 @@ Atau klik langsung link di bawah untuk download versi terbaru:
 - **Koneksi Internet**: Pastikan koneksi internetmu stabil untuk hasil terbaik
 - **Preset**: Gunakan preset nilai untuk pengisian cepat dan konsisten
 - **Banyak Matkul**: Jika kamu punya banyak matkul, proses akan memakan waktu lebih lama, jadi bersabarlah 😊
+- **Mata Kuliah Tanpa Dosen**: Beberapa mata kuliah mungkin tidak memiliki dosen pengajar atau tidak memerlukan penilaian. Hindari memilih mata kuliah tersebut agar proses pengisian tidak terganggu.
 
 ## ❓ FAQ
 
@@ -84,6 +86,9 @@ Pastikan kamu sudah menginstall Chrome di komputermu. AutoEPBM membutuhkan Chrom
 
 ### Kenapa prosesnya kadang lambat?
 Kecepatan pengisian tergantung pada koneksi internet dan responsivitas server IPB. Pada jam sibuk, server IPB biasanya lebih lambat merespon.
+
+### Mengapa beberapa mata kuliah error saat pengisian?
+Beberapa mata kuliah mungkin tidak memiliki dosen pengajar atau memiliki format EPBM yang berbeda. Sebaiknya hapus centang pada mata kuliah tersebut saat memilih mata kuliah yang akan diisi.
 
 ## 🐛 Pelaporan Bug
 
@@ -105,7 +110,7 @@ Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) unt
 
 ## 👨‍💻 Tentang Pengembang
 
-Dibuat dengan ❤️ oleh [Dzakwan Alifi](https://github.com/dzakwanalifi) (2025), mahasiswa Statistika IPB University.
+Dibuat dengan ❤️ oleh [Dzakwan Alifi](https://github.com/dzakwanalifi) (2025), mahasiswa Statistika dan Sains Data IPB University.
 
 [![GitHub](https://img.shields.io/badge/GitHub-dzakwanalifi-black?style=flat&logo=github)](https://github.com/dzakwanalifi/)
 [![Instagram](https://img.shields.io/badge/Instagram-dzakwanalifi-purple?style=flat&logo=instagram)](https://www.instagram.com/dzakwanalifi)
