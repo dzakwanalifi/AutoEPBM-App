@@ -1,128 +1,229 @@
-# 📊 AutoEPBM StudentPortal IPB
+# 🚀 AutoEPBM - Student Portal IPB
 
-## 🌟 Pengenalan
+<div align="center">
 
-AutoEPBM adalah aplikasi otomatis untuk mengisi form EPBM (Evaluasi Perkuliahan oleh Mahasiswa) di StudentPortal IPB University dengan cepat dan mudah. Bosan mengisi puluhan form EPBM satu per satu? AutoEPBM hadir untuk menyelamatkanmu! 
+![AutoEPBM Logo](https://img.shields.io/badge/AutoEPBM-IPB%20University-green?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyYTEwIDEwIDAgMSAwIDAgMjAgMTAgMTAgMCAwIDAgMC0yMHptMCAyYTggOCAwIDEgMSAwIDE2IDggOCAwIDAgMSAwLTE2em0xIDJIOXYyaDJ2NkgydjJoMTB2LTJoLTJ6Ii8+PC9zdmc+)
 
-Dengan AutoEPBM, kamu bisa mengisi semua form EPBM hanya dalam hitungan detik, daripada menghabiskan bermenit-menit mengisi form secara manual.
+[![Release](https://img.shields.io/github/v/release/dzakwanalifi/AutoEPBM-App?color=blue&include_prereleases&style=flat-square)](https://github.com/dzakwanalifi/AutoEPBM-App/releases/latest)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+[![Selenium](https://img.shields.io/badge/Selenium-grey?style=flat-square&logo=selenium&logoColor=white)](https://www.selenium.dev/)
+[![PyQt](https://img.shields.io/badge/PyQt5-41CD52?style=flat-square&logo=qt&logoColor=white)](https://www.qt.io)
+[![Downloads](https://img.shields.io/github/downloads/dzakwanalifi/AutoEPBM-App/total?style=flat-square&color=orange)](https://github.com/dzakwanalifi/AutoEPBM-App/releases)
 
-## ✨ Fitur
+<p align="center">
+  <img src="screenshots/main_screen.png" alt="AutoEPBM Main Screen" width="80%" />
+</p>
 
-- 🚀 **Otomatis Mengisi Semua Form EPBM** - Isi semua form dengan beberapa klik saja
-- 🔍 **Pencarian Mata Kuliah** - Temukan semua mata kuliah yang perlu diisi
-- ⚙️ **Kustomisasi Nilai** - Sesuaikan nilai yang ingin kamu berikan untuk setiap kategori
-- 📝 **Saran Tersesuaikan** - Berikan saran personal untuk dosen
-- 🎨 **Antarmuka Pengguna yang Bersih** - Mudah digunakan dan eye-catching
-- 🔒 **Keamanan** - Kredensial login kamu tidak pernah disimpan
-- 💬 **Logging Real-time** - Pantau proses pengisian secara langsung
+**Isi form EPBM dengan cepat dan mudah! Dari manual ke otomatis dalam hitungan detik.**
 
-## 📥 Download
+[🔍 Fitur](#-fitur) • 
+[⬇️ Download](#️-download) • 
+[🛠️ Penggunaan](#️-cara-penggunaan) • 
+[❓ FAQ](#-faq) • 
+[👨‍💻 Pengembang](#-tentang-pengembang)
 
-Kamu bisa mengunduh versi terbaru AutoEPBM dari [halaman release GitHub](https://github.com/dzakwanalifi/AutoEPBM-App/releases/latest).
-
-Atau klik langsung link di bawah untuk download versi terbaru:
-- [AutoEPBM v1.0.0 (Windows)](https://github.com/dzakwanalifi/AutoEPBM-App/releases/download/v1.0.0/AutoEPBM.exe)
-
-## 🛠️ Cara Penggunaan
-
-### Langkah 1: Login
-
-1. Buka aplikasi AutoEPBM
-2. Masukkan username dan password IPB-mu
-3. Secara default, aplikasi akan berjalan di latar belakang (headless mode). Uncheck opsi ini jika kamu ingin melihat browser bekerja.
-
-![Login Screen](screenshots/login_screen.png)
-
-### Langkah 2: Cari Mata Kuliah
-
-1. Klik tombol "Cari Mata Kuliah"
-2. Tunggu sampai proses scanning selesai
-3. Aplikasi akan menampilkan semua mata kuliah yang perlu diisi EPBM-nya
-
-![Course Selection](screenshots/course_selection.png)
-
-### Langkah 3: Pilih Mata Kuliah
-
-1. Secara default, semua mata kuliah yang belum diisi akan dipilih
-2. Kamu bisa memilih matkul spesifik yang ingin diisi
-3. **Catatan Penting**: Jika ada mata kuliah yang tidak memiliki dosen pengajar atau tidak memerlukan penilaian, tidak perlu diisi (hapus centang pada mata kuliah tersebut)
-4. Klik OK untuk melanjutkan
-
-### Langkah 4: Atur Nilai (Opsional)
-
-1. Klik tab "Pengaturan" jika kamu ingin mengubah nilai default
-2. Kamu bisa mengubah nilai untuk setiap kategori (1-4)
-3. Atau gunakan preset "Semua Nilai 4" atau "Semua Nilai 3" untuk pengisian cepat
-4. Juga bisa mengubah saran untuk dosen sesuai keinginan
-
-![Settings Screen](screenshots/settings_screen.png)
-
-### Langkah 5: Mulai Otomasi
-
-1. Klik tombol "Mulai Otomasi EPBM"
-2. Pantau progres pengisian di panel log
-3. Setelah selesai, kamu akan melihat pesan konfirmasi
-
-![Automation Progress](screenshots/automation_progress.png)
-
-## 💡 Tips & Trik
-
-- **Mode Headless**: Untuk pengisian paling cepat, biarkan mode headless aktif (browser tidak terlihat)
-- **Koneksi Internet**: Pastikan koneksi internetmu stabil untuk hasil terbaik
-- **Preset**: Gunakan preset nilai untuk pengisian cepat dan konsisten
-- **Banyak Matkul**: Jika kamu punya banyak matkul, proses akan memakan waktu lebih lama, jadi bersabarlah 😊
-- **Mata Kuliah Tanpa Dosen**: Beberapa mata kuliah mungkin tidak memiliki dosen pengajar atau tidak memerlukan penilaian. Hindari memilih mata kuliah tersebut agar proses pengisian tidak terganggu.
-
-## ❓ FAQ
-
-### Apakah aplikasi ini aman?
-Ya! AutoEPBM tidak menyimpan username dan password kamu. Semua informasi login hanya digunakan untuk sesi pengisian dan tidak pernah dikirim ke server manapun.
-
-### Apakah nilai yang saya berikan akan benar-benar tersimpan?
-Tentu saja! AutoEPBM melakukan hal yang sama seperti yang kamu lakukan secara manual, jadi semua nilai akan tersimpan dengan benar di sistem IPB.
-
-### Aplikasinya tidak bisa dibuka, apa yang harus saya lakukan?
-Pastikan kamu sudah menginstall Chrome di komputermu. AutoEPBM membutuhkan Chrome untuk bekerja.
-
-### Kenapa prosesnya kadang lambat?
-Kecepatan pengisian tergantung pada koneksi internet dan responsivitas server IPB. Pada jam sibuk, server IPB biasanya lebih lambat merespon.
-
-### Mengapa beberapa mata kuliah error saat pengisian?
-Beberapa mata kuliah mungkin tidak memiliki dosen pengajar atau memiliki format EPBM yang berbeda. Sebaiknya hapus centang pada mata kuliah tersebut saat memilih mata kuliah yang akan diisi.
-
-## 🐛 Pelaporan Bug
-
-Menemukan bug? Buat issue baru di [GitHub Issues](https://github.com/dzakwanalifi/AutoEPBM-App/issues) dengan detail sebanyak mungkin tentang masalah yang kamu temui.
-
-## 🤝 Kontribusi
-
-Kontribusi selalu diterima dengan senang hati! Jika kamu ingin berkontribusi:
-
-1. Fork repositori ini
-2. Buat branch fitur baru (`git checkout -b fitur-keren`)
-3. Commit perubahanmu (`git commit -m 'Menambahkan fitur keren'`)
-4. Push ke branch (`git push origin fitur-keren`)
-5. Buat Pull Request baru
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail.
-
-## 👨‍💻 Tentang Pengembang
-
-Dibuat dengan ❤️ oleh [Dzakwan Alifi](https://github.com/dzakwanalifi) (2025), mahasiswa Statistika dan Sains Data IPB University.
-
-[![GitHub](https://img.shields.io/badge/GitHub-dzakwanalifi-black?style=flat&logo=github)](https://github.com/dzakwanalifi/)
-[![Instagram](https://img.shields.io/badge/Instagram-dzakwanalifi-purple?style=flat&logo=instagram)](https://www.instagram.com/dzakwanalifi)
-
-## 📸 Screenshot
-
-![Main Screen](screenshots/main_screen.png)
+</div>
 
 ---
 
-### Catatan Penting
+## 🌟 Pendahuluan
 
-Aplikasi ini dibuat untuk tujuan pendidikan dan efisiensi. Tolong gunakan dengan bijak dan tetap berikan umpan balik yang jujur untuk dosen-dosenmu. AutoEPBM hanya membantu mengatasi masalah teknis pengisian form, tetapi kualitas pendidikan tetap bergantung pada umpan balik yang jujur dari kita semua.
+AutoEPBM mengotomatisasi pengisian formulir EPBM (Evaluasi Perkuliahan oleh Mahasiswa) di StudentPortal IPB University. Dengan sekali klik, kamu bisa mengisi semua form EPBM tanpa perlu menghabiskan waktu berharga untuk mengisi puluhan form secara manual.
 
-Terima kasih telah menggunakan AutoEPBM! 👨‍🎓✨
+> 💡 **Mengisi EPBM menjadi semudah klik sekali!**
+
+## ✨ Fitur
+
+<div align="center">
+
+| 🚀 **Otomasi Lengkap** | 🎯 **Kustomisasi** | 🔒 **Keamanan** |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| Isi semua form hanya dengan beberapa klik | Sesuaikan nilai evaluasi untuk setiap kategori | Kredensial tidak pernah disimpan |
+| ![Automation](https://img.shields.io/badge/Otomasi-100%25-success?style=flat-square) | ![Customizable](https://img.shields.io/badge/Kustomisasi-Lengkap-blueviolet?style=flat-square) | ![Security](https://img.shields.io/badge/Keamanan-Terjamin-important?style=flat-square) |
+
+</div>
+
+- 🔍 **Smart Scanning** - Otomatis mendeteksi mata kuliah yang perlu diisi
+- 📋 **Pemilihan Mata Kuliah** - Pilih mata kuliah tertentu yang ingin kamu isi
+- ⚙️ **Preset Nilai** - Gunakan preset nilai atau sesuaikan untuk setiap kategori
+- 📝 **Saran Kustom** - Berikan saran personal untuk dosen-dosenmu
+- 🏃‍♂️ **Mode Headless** - Pengisian cepat tanpa menampilkan browser
+- 🧪 **Mode Uji** - Coba tanpa menyimpan untuk memastikan semuanya bekerja
+- 💬 **Logging Real-time** - Pantau kemajuan proses secara langsung
+- 🎨 **Antarmuka Modern** - Desain yang intuitif dan menarik
+
+## 📥 Download
+
+<div align="center">
+
+### Windows
+
+[![Download for Windows](https://img.shields.io/badge/Windows-Download%20v1.0.0-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/dzakwanalifi/AutoEPBM-App/releases/download/v1.0.0/AutoEPBM.exe)
+
+### Source Code
+
+[![Source Code](https://img.shields.io/badge/Source%20Code-GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dzakwanalifi/AutoEPBM-App)
+
+</div>
+
+<details>
+<summary>Persyaratan Sistem</summary>
+
+- Windows 7/8/10/11 (64-bit)
+- Google Chrome terinstal
+- Koneksi internet stabil
+- Min. 4GB RAM
+- Min. 200MB ruang disk
+
+</details>
+
+## 🛠️ Cara Penggunaan
+
+### 1️⃣ Login
+- Buka aplikasi AutoEPBM
+- Masukkan username dan password IPB-mu
+- Opsional: nonaktifkan mode headless untuk melihat browser bekerja
+
+<p align="center">
+  <img src="screenshots/login_screen.png" alt="Login Screen" width="45%" />
+</p>
+
+### 2️⃣ Cari Mata Kuliah
+- Klik tombol "Cari Mata Kuliah"
+- Aplikasi akan memindai mata kuliah yang perlu diisi
+- Pilih mata kuliah spesifik yang ingin diisi
+
+<p align="center">
+  <img src="screenshots/course_selection.png" alt="Course Selection" width="45%" />
+</p>
+
+<div align="center">
+  <p><strong>⚠️ Tip Penting:</strong> Jangan pilih mata kuliah tanpa dosen atau yang tidak memerlukan penilaian</p>
+</div>
+
+### 3️⃣ Atur Nilai (Opsional)
+- Buka tab "Pengaturan" untuk menyesuaikan penilaian
+- Sesuaikan nilai (1-4) untuk setiap kategori penilaian
+- Kostumisasi saran untuk dosen
+
+<p align="center">
+  <img src="screenshots/settings_screen.png" alt="Settings Screen" width="70%" />
+</p>
+
+### 4️⃣ Mulai Otomasi
+- Klik "Mulai Otomasi EPBM"
+- Pantau kemajuan di panel log
+- Tunggu sampai proses selesai
+
+## 💡 Tips & Trik
+
+<div align="center">
+
+| Tip | Deskripsi |
+|:---:|:---|
+| ⚡ | Gunakan mode headless untuk pengisian tercepat |
+| 🔄 | Gunakan preset nilai untuk konsistensi |
+| 🧪 | Coba mode uji terlebih dahulu untuk verifikasi |
+| ❌ | Hindari memilih mata kuliah tanpa dosen pengajar |
+| 🕒 | Jalankan di luar jam sibuk untuk respons server lebih cepat |
+
+</div>
+
+## ❓ FAQ
+
+<details>
+<summary><b>Apakah aplikasi ini aman?</b></summary>
+<p>Ya! AutoEPBM tidak menyimpan atau mengirim kredensial login ke server manapun. Semua proses berjalan di komputer lokalmu.</p>
+</details>
+
+<details>
+<summary><b>Apakah nilai yang saya berikan benar-benar tersimpan?</b></summary>
+<p>Tentu saja! AutoEPBM melakukan hal yang sama seperti ketika kamu mengisi secara manual, sehingga semua penilaian tersimpan dengan benar di sistem IPB.</p>
+</details>
+
+<details>
+<summary><b>Aplikasi tidak bisa dibuka, apa yang harus dilakukan?</b></summary>
+<p>Pastikan Google Chrome terinstal di komputermu. Jika sudah terinstal, coba nonaktifkan antivirus sementara dan jalankan sebagai administrator.</p>
+</details>
+
+<details>
+<summary><b>Mengapa beberapa mata kuliah error saat pengisian?</b></summary>
+<p>Beberapa mata kuliah mungkin memiliki struktur yang berbeda atau tidak memerlukan pengisian EPBM. Sebaiknya batalkan pilihan pada mata kuliah tersebut.</p>
+</details>
+
+## 🐛 Pelaporan Bug
+
+<div align="center">
+
+[![Report Bug](https://img.shields.io/badge/Report%20Bug-GitHub%20Issues-red?style=for-the-badge&logo=github)](https://github.com/dzakwanalifi/AutoEPBM-App/issues)
+
+</div>
+
+Jika menemukan bug, tolong sertakan:
+- Screenshot error
+- Langkah-langkah yang kamu lakukan
+- Versi aplikasi yang digunakan
+- OS yang digunakan
+
+## 🤝 Kontribusi
+
+<div align="center">
+
+[![Open in GitHub](https://img.shields.io/badge/Kontribusi-Fork%20Repository-green?style=for-the-badge&logo=github)](https://github.com/dzakwanalifi/AutoEPBM-App/fork)
+
+</div>
+
+Kontribusi selalu diterima dengan senang hati! Langkah kontribusi:
+
+1. Fork repositori
+2. Buat branch fitur (`git checkout -b fitur-keren`)
+3. Commit perubahan (`git commit -m 'Menambahkan fitur keren'`)
+4. Push ke branch (`git push origin fitur-keren`)
+5. Buat Pull Request
+
+## 📄 Lisensi
+
+<div align="center">
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
+</div>
+
+Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail.
+
+## 👨‍💻 Tentang Pengembang
+
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/dzakwanalifi" width="100px" style="border-radius:50%">
+  <h3>Dzakwan Alifi</h3>
+  <p>Mahasiswa Statistika dan Sains Data, IPB University (2025)</p>
+  
+  [![GitHub](https://img.shields.io/badge/GitHub-dzakwanalifi-black?style=flat-square&logo=github)](https://github.com/dzakwanalifi/)
+  [![Instagram](https://img.shields.io/badge/Instagram-dzakwanalifi-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/dzakwanalifi)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Dzakwan%20Alifi-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dzakwanalifi)
+</div>
+
+---
+
+<div align="center">
+  <p>
+    <strong>AutoEPBM v1.0.0</strong> • Dibuat dengan ❤️
+  </p>
+  
+  <sup>© 2025 Dzakwan Alifi • Semua merek dagang dan logo adalah milik dari pemiliknya masing-masing.</sup>
+  
+  <br>
+  
+  [![Star Repo](https://img.shields.io/github/stars/dzakwanalifi/AutoEPBM-App?style=social)](https://github.com/dzakwanalifi/AutoEPBM-App)
+  [![Follow](https://img.shields.io/github/followers/dzakwanalifi?style=social)](https://github.com/dzakwanalifi)
+</div>
+
+---
+
+### 📌 Catatan Penting
+
+Aplikasi ini dibuat untuk tujuan pendidikan dan efisiensi. Harap gunakan dengan bijak dan tetap berikan umpan balik yang jujur untuk dosen-dosenmu. AutoEPBM hanya mempermudah proses pengisian, tetapi kualitas pendidikan tetap bergantung pada umpan balik yang konstruktif dari mahasiswa.
+
+<div align="center">
+</div>
