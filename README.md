@@ -105,7 +105,7 @@ Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) unt
 
 ## 👨‍💻 Tentang Pengembang
 
-Dibuat dengan ❤️ oleh [Dzakwan Alifi](https://github.com/dzakwanalifi) (2025), mahasiswa Ilmu Komputer IPB University.
+Dibuat dengan ❤️ oleh [Dzakwan Alifi](https://github.com/dzakwanalifi) (2025), mahasiswa Statistika IPB University.
 
 [![GitHub](https://img.shields.io/badge/GitHub-dzakwanalifi-black?style=flat&logo=github)](https://github.com/dzakwanalifi/)
 [![Instagram](https://img.shields.io/badge/Instagram-dzakwanalifi-purple?style=flat&logo=instagram)](https://www.instagram.com/dzakwanalifi)
