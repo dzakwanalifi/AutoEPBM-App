@@ -2,7 +2,7 @@
 
 ## 🌟 Pengenalan
 
-AutoEPBM adalah aplikasi otomatis untuk mengisi form EPBM (Evaluasi Perkuliahan oleh Mahasiswa) di portal mahasiswa IPB University dengan cepat dan mudah. Bosan mengisi puluhan form EPBM satu per satu? AutoEPBM hadir untuk menyelamatkanmu! 
+AutoEPBM adalah aplikasi otomatis untuk mengisi form EPBM (Evaluasi Perkuliahan oleh Mahasiswa) di StudentPortal IPB University dengan cepat dan mudah. Bosan mengisi puluhan form EPBM satu per satu? AutoEPBM hadir untuk menyelamatkanmu! 
 
 Dengan AutoEPBM, kamu bisa mengisi semua form EPBM hanya dalam hitungan detik, daripada menghabiskan bermenit-menit mengisi form secara manual.
 
